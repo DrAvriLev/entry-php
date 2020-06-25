@@ -1,7 +1,3 @@
-<?php
-echo 'Hi. This is a PHP login course';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,9 +9,52 @@ echo 'Hi. This is a PHP login course';
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
 
 
+
 </head>
 
 <body>
+
+    <div class="uk-section uk-container">
+        <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid="">
+            <form class="uk-form-stacked">
+
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-text">Email</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="form-stacked-text" type="email" placeholder="email@email.com">
+                    </div>
+                </div>
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-text">Password</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="form-stacked-text" type="password" placeholder="password">
+                    </div>
+                </div>
+
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-select">Select</label>
+                    <div class="uk-form-controls">
+                        <select class="uk-select" id="form-stacked-select">
+                            <option>Option 01</option>
+                            <option>Option 02</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="uk-margin">
+                    <div class="uk-form-label">Radio</div>
+                    <div class="uk-form-controls">
+                        <label><input class="uk-radio" type="radio" name="radio1"> Option 01</label><br>
+                        <label><input class="uk-radio" type="radio" name="radio1"> Option 02</label>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+
 
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
